@@ -1,5 +1,4 @@
 body{
-    box-sizing: border-box;
     margin: 0; padding: 0;
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
@@ -8,4 +7,16 @@ body{
 }
 section{
     margin-top: 5%;
+}
+.div_1{
+    font-size: 1.2rem;
+    color: #fff;
+}
+.version{
+    font-size: 18em;
+    color: #fff;
+}
+.image_tafa{
+    margin: 0;
+    padding: 0 !important;
 }
