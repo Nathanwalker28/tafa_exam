@@ -1,12 +1,23 @@
+@font-face {
+    font-family: 'Berlin Sans FB Demi';
+    src: url('../fonts/BerlinSansFBDemi-Bold.woff') format('woff2'),
+        url('../fonts/BerlinSansFBDemi-Bold.woff2') format('woff');
+    
+    font-style: normal;
+    
+}
+
 body{
-    margin: 0; padding: 0;
+    margin: 0 !important; padding: 2%;
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
+    font-family: 'Berlin Sans FB Demi' !important;
 }
 section{
-    margin-top: 5%;
+    margin-top: 4%;
+    
 }
 .div_1{
     font-size: 1.2rem;
@@ -15,8 +26,21 @@ section{
 .version{
     font-size: 18em;
     color: #fff;
+    
 }
 .image_tafa{
     margin: 0;
     padding: 0 !important;
+
+}   
+.active{
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff !important;
+    text-decoration: none;
+}
+.active:hover{
+    color: blueviolet !important;
+    background: #fff;
 }
