@@ -13,12 +13,12 @@
 
 </head>
 <body>
-    <div class="container">
+    <header class="container">
         <div class="row d-flex align-items-center ">
-            <div class="col-lg-2 col-md-3 col-2">
+            <div class="col-lg-2 col-md-3 d-flex justify-content-center">
                 <img src="images/logo_tafa.png" alt="logo">
             </div>
-            <ul class="col-lg-10 col-md-9 d-flex nav justify-content-evenly">
+            <ul class="col-lg-10 col-md-9 d-flex nav justify-content-evenly flex-wrap">
                 <li class="nav-item">
                   <a class="nav-link link-light" href="#" >Accueil</a>
                 </li>
@@ -29,33 +29,39 @@
                   <a class="nav-link link-light" href="#">Contact</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active " aria-current="page">Se connecter</a>
+                  <a class="nav-link active" href="#" aria-current="page">Se connecter</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active ">S'inscrire</a>
+                    <a class="nav-link active " href="#">S'inscrire</a>
                 </li>
             </ul>
         </div>
-    </div>
+    </header>
 
     <section>
         <div class="container">
             <div class="row d-flex align-items-center">
-                <div class="col-lg-4 col-md-4 div_1">
+                <div class="col-lg-6 col-md-6 article">
                     <h1><strong>Tafa</strong> </h1>
                     <p>Tafa ou Talent Factory est une formation professionnelle dans les métiers du digital,
                      entièrement gratuite octroyée par l'association RISE
                     </p>
-                    <button type="button" class="btn btn-lg btn-light rounded-pill">En savoir plus</button>
+                    <button type="button" class="btn btn-lg  rounded-pill active">En savoir plus</button>
                 </div>
-                <div class="col-lg-8 col-md-8">
+                <div class="col-lg-6 col-md-6">
                     <h1 class="version">2.0</h1>
                 </div>
             </div>
         </div>
     </section>
-    <footer class="mx-auto">
-        <img src="images/image_tafa.jpg" class="position-absolute bottom-0 img-fluid image_tafa">
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <img src="images/image_tafa.jpg" class="position-absolute  position-absolute bottom-0 start-50 translate-middle-x img-fluid">
+                </div>
+            </div>
+        </div>
     </footer>    
 
 </body>

@@ -6,9 +6,12 @@
     font-style: normal;
     
 }
+header{
+    padding-top: 2%;
+}
 
 body{
-    margin: 0 !important; padding: 2%;
+    margin: 0 !important;
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,18 +22,20 @@ section{
     margin-top: 4%;
     
 }
-.div_1{
+.article{
     font-size: 1.2rem;
     color: #fff;
 }
 .version{
     font-size: 18em;
-    color: #fff;
-    
+    color: #fff; 
 }
 .image_tafa{
-    margin: 0;
-    padding: 0 !important;
+    margin:0 !important;
+    padding:0 !important;
+    width: 100% !important;
+    height: 400px !important;
+    left: 0px !important;
 
 }   
 .active{
@@ -40,7 +45,10 @@ section{
     color: #fff !important;
     text-decoration: none;
 }
+button{
+    color: #fff;
+}
 .active:hover{
     color: blueviolet !important;
-    background: #fff;
+    background: #fff !important;
 }
